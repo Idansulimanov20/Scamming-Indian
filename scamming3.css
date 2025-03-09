@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(assets/haaaaa.png);
+    background-repeat: repeat;
+    background-size: fill;
+}
+.thunder-text {
+    /* border: 2px solid white; */
+    /* background-color: azure; */
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 20px 40px;
+    animation: thunder 1.5s infinite;
+    top: 180px;
+}
+
+@keyframes thunder {
+    0% {
+        text-shadow:
+            0 0 5px rgb(0, 0, 0),
+            0 0 10px rgb(232, 3, 3),
+            0 0 15px rgb(0, 0, 0),
+            0 0 20px rgb(236, 20, 20),
+            0 0 25px rgb(0, 0, 0),
+            0 0 30px rgb(247, 18, 18),
+            0 0 35px rgb(0, 0, 0);
+    }
+
+    25% {
+        text-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px rgb(232, 3, 3),
+        0 0 15px rgb(0, 0, 0),
+        0 0 20px rgb(236, 20, 20),
+        0 0 25px rgb(0, 0, 0),
+        0 0 30px rgb(247, 18, 18),
+        0 0 35px rgb(0, 0, 0);
+    }
+
+    50% {
+        text-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px rgb(232, 3, 3),
+        0 0 15px rgb(0, 0, 0),
+        0 0 20px rgb(236, 20, 20),
+        0 0 25px rgb(0, 0, 0),
+        0 0 30px rgb(247, 18, 18),
+        0 0 35px rgb(0, 0, 0);
+    }
+
+    75% {
+        text-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px rgb(232, 3, 3),
+        0 0 15px rgb(0, 0, 0),
+        0 0 20px rgb(236, 20, 20),
+        0 0 25px rgb(0, 0, 0),
+        0 0 30px rgb(247, 18, 18),
+        0 0 35px rgb(0, 0, 0);
+    }
+
+    100% {
+        text-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px rgb(232, 3, 3),
+        0 0 15px rgb(0, 0, 0),
+        0 0 20px rgb(236, 20, 20),
+        0 0 25px rgb(0, 0, 0),
+        0 0 30px rgb(247, 18, 18),
+        0 0 35px rgb(0, 0, 0);
+    }
+}
